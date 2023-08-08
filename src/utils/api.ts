@@ -6,7 +6,7 @@ type AxiosDataInput = [url: string, data?: any, config?: AxiosRequestConfig<any>
 
 export default class Api {
     static AXIOS = axios.create({
-        baseURL: 'http://localhost:3000/'
+        baseURL: ' https://my-json-server.typicode.com/methe-1/fake-db'
     });
 
     constructor() {}
